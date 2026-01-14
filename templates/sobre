@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Sobre - Juntos Pelo Bem</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Sobre o Projeto</h1>
-    <p>Essa página prova que as rotas estão funcionando 🚀</p>
 
-    <a href="/">Voltar</a>
+    <h1>Sobre o Projeto</h1>
+
+    <p>
+        O <strong>Juntos Pelo Bem</strong> é um projeto criado para ajudar pessoas,
+        promover solidariedade e fazer a diferença na vida de quem precisa.
+    </p>
+
+    <p>
+        Nosso objetivo é unir pessoas em prol do bem comum, usando a tecnologia
+        como ferramenta de impacto social.
+    </p>
+
+    <a href="/">
+        <button>Voltar para início</button>
+    </a>
+
 </body>
 </html>
