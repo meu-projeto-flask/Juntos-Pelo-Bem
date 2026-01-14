@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Juntos Pelo Bem</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+
     <h1>Juntos Pelo Bem</h1>
     <p>Projeto funcionando corretamente no Render 🚀</p>
-    <button onclick="alert('Funcionando!')">Testar</button>
+
+    <!-- Botão funcional -->
+    <button onclick="irParaSobre()">Testar</button>
+
+    <!-- JS -->
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
