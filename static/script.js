@@ -1,1 +1,3 @@
-console.log("JS carregado corretamente");
+function irParaSobre() {
+    window.location.href = "/sobre";
+}
